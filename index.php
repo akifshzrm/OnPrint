@@ -30,6 +30,7 @@
   <table class="table table-bordered">
     <thead>
       <tr>
+        <!-- this is outlet -->
         <th>Outlet</th>
         <th>Location</th>
       </tr>
