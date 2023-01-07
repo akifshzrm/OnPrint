@@ -1,0 +1,58 @@
+.bg-turquoise {
+  background-color: rgb(113, 178, 113);
+}
+.navbar {
+  font-family: 'Freight Sans', sans-serif;
+  font-weight: bold;
+}
+.navbar a:hover {
+  background-color: rgb(217, 255, 217);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* manage printing */
+.nav {
+  width: 300px;
+  flex-shrink: 0;
+  background-color: lightgrey;
+  min-height: 100vh;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav ul li button {
+  display: block;
+  width: 80%;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.nav ul li button:hover {
+  background-color: white;
+  color: green;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+  overflow: auto;
+}
