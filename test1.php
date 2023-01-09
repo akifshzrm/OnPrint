@@ -2,24 +2,33 @@
 <?php include 'header.php'; ?>
   <!-- Navbar -->
   <div class="d-flex flex-column h-100">
-    <div class="d-flex flex-row">
-      <div class="nav navbar-nav navbar-left">
+  <div class="d-flex flex-row">
+    <div class="nav navbar-nav navbar-left">
       <!-- Side navigation -->
       <ul>
-    <li>
-      <button type="button">Make Order</button>
-    </li>
-    <li>
-      <button type="button">Order History</button>
-    </li>
-    <li>
-      <button type="button">Expenses</button>
-    </li>
-    <li>
-      <button type="button">Point</button>
-    </li>
-  </ul>
+        <li class="nav-item dropdown">
+          <button type="button" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Make Order
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Option 1</a>
+            <a class="dropdown-item" href="#">Option 2</a>
+            <a class="dropdown-item" href="#">Option 3</a>
+          </div>
+        </li>
+        <li>
+          <button type="button">Order History</button>
+        </li>
+        <li>
+          <button type="button">Expenses</button>
+        </li>
+        <li>
+          <button type="button">Point</button>
+        </li>
+      </ul>
     </div>
+  </div>
+</div>
     <!-- Main content -->
     <div class="flex-grow-1">
     <div class="container mt-5">
@@ -118,5 +127,7 @@
 </div>
 
 </div>
+
+<script>$('.dropdown-toggle').dropdown()</script>
 </body>
 </html>
